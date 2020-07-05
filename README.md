@@ -1,10 +1,10 @@
 # Flower Image Classifier
 
-In this project I build an image classifier to recognize flower types on images.
+I create an image classifier to tell what flower type is on an image.
 
 ### Overview
 
-I build and train the classifier using deep learning. Then I export the model to a simple command line application.
+I build and train a deep learning model using a pre-trained neural network. Then I create a simple command line application so the model can be used on any computer.
 
 ### Methods
 
@@ -20,11 +20,35 @@ I build and train the classifier using deep learning. Then I export the model to
 
 ## How to use
 
-#### Model
+### Model
 
-To take a look at the model, open `image_classifier.html` in a browser.
+To take a look at the notebook, just click on `finding-donors.ipynb` and it should open automatically.
 
-#### Application
+Alternatively you can download the project and open the file `finding-donors.html` in your browser to see the results.
+
+### Application
+
+##### Requirements
+
+To use the command line application, you need to have TensorFlow installed.
+
+###### Creating an environment with Anaconda
+
+For the ease of use I've included an environment file named `environment.yml`.
+
+It can be used with Anaconda to easily create an environment that I used on any computer.
+
+To create it, open terminal in the directory where you have downloaded the project and type:
+```
+conda env create -f environment.yml
+```
+
+Then you just need to activate it before using the application:
+```
+conda activate tf_env
+```
+
+#### Usage
 
 Open terminal in the directory with the project and type:
 ```
@@ -55,17 +79,13 @@ Optional:
 
 ```
 
-
-##### Requirements
-For the application to work, you need to have TensorFlow installed.
-
 ## Dataset
 
 The dataset for the project contains images of 102 flower species commonly occuring in the UK. It comes from [Oxford](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
 
 #### Size
 
-For each out of 102 flower types there are between 40 and 258 images.
+For each out of 102 flower types there are between 40 and 258 images. In total there are 8189 images.
 
 #### Sample images
 
