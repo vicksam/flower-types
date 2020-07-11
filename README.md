@@ -1,6 +1,7 @@
 # Flower Image Classifier
 
-I create an image classifier to tell what flower type is on an image.
+Have you ever had a problem figuring out the name of the flower? I have and I had a hard time remembering their names.
+Fortunately, it is no longer a problem. I created a neural network that does just that. It tells the flower type that is on a picture.
 
 ### Overview
 
@@ -22,9 +23,9 @@ I build and train a deep learning model using a pre-trained neural network. Then
 
 ### Model
 
-To take a look at the notebook, just click on `finding-donors.ipynb` and it should open automatically.
+To take a look at the notebook, just click on `image-classifier.ipynb` and it should open automatically.
 
-Alternatively you can download the project and open the file `finding-donors.html` in your browser to see the results.
+Alternatively you can download the project and open the file `image-classifier.html` in your browser to see the results.
 
 ### Application
 
