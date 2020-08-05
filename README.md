@@ -23,9 +23,9 @@ I build and train a deep learning model using a pre-trained neural network. Then
 
 ### Model
 
-To take a look at the notebook, just click on `image-classifier.ipynb` and it should open automatically.
+To take a look at the notebook, just click on `image_classifier.ipynb` and it should open automatically.
 
-Alternatively you can download the project and open the file `image-classifier.html` in your browser to see the results.
+Alternatively you can download the project and open the file `image_classifier.html` in your browser to see the results.
 
 ### Application
 
