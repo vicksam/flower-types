@@ -23,9 +23,9 @@ I build and train a deep learning model using a pre-trained neural network. Then
 
 ### Model
 
-To take a look at the notebook, just click on `image_classifier.ipynb` and it should open automatically.
+To take a look at the notebook, just click on `flower_types.ipynb` and it should open automatically.
 
-Alternatively you can download the project and open the file `image_classifier.html` in your browser to see the results.
+Alternatively you can download the project and open the file `flower_types.html` in your browser to see the results.
 
 ### Application
 
@@ -53,7 +53,7 @@ conda activate tf_env
 
 Open terminal in the directory with the project and type:
 ```
-python predict.py test-images/orange_dahlia.jpg image_classifier.h5 --top_k 5 --category_names label_map.json
+python predict.py test-images/orange_dahlia.jpg flower_types.h5 --top_k 5 --category_names label_map.json
 ```
 The result will be displayed as:
 ```
